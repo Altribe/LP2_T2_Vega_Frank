@@ -1,6 +1,6 @@
 package com.examenT2.lp2_t2_vega_frank.model;
 
-import java.time.LocalDate;
+import java.time.LocalDateTime;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -33,7 +33,7 @@ public class ProveedorVegaFrank {
     private String razonSocial;
 
     @Column(name = "fecha_registro")
-    private LocalDate fechaRegistro;
+    private LocalDateTime fechaRegistro;
 
     @Column(name = "direccion")
     private String direccion;
